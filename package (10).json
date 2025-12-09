@@ -1,0 +1,16 @@
+{
+  "name": "sellauth-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for selling digital products with Litecoin payments",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "better-sqlite3": "^9.4.3",
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.1"
+  }
+}
